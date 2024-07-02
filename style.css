@@ -1,0 +1,285 @@
+.main{
+    height: 550px;            
+    background-image: linear-gradient(rgba(6, 6, 66, 0.7), rgba(6, 6, 66, 0.7)), url('https://www.themoneygig.com/wp-content/uploads/2020/11/Digital-Technology-900x400.jpg');
+    background-size: 100%;
+    background-repeat: inherit;
+    color: white;
+    flex-direction: column;
+}
+.nav-end {
+    height: 200px;
+    background-color: red;
+}
+.nav {
+    display: flex;   
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item {
+    margin-right: 15px;   
+}
+.nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    margin-top: 10px;
+}
+.nav-link:hover{
+    color: red;
+}
+.main-nav{
+    display: flex;
+       
+}
+.main h2{
+    font-weight: bold;
+    padding: 10px;
+}
+.main-text{
+    text-align: center;
+    margin-top: 50px;
+}
+.search{
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+}
+.check{
+    display:flex;
+    margin-top: 30px;
+}
+
+.form-check{
+    display: inline;
+    margin-right: 20px;
+    align-items: center;
+}
+.form-check-input:hover{
+    background-color: red;
+}
+.btn-submit .btn{
+    padding: 5px 35px;
+}
+.btn-submit .btn:hover{
+    background-color: rgba(240, 248, 255, 0);
+    color: red;
+}
+.nav-end .container .row .col img{
+    width: 60px;
+    color: white;
+}
+.nav-end .container .row .col .card{
+    background-color: red;
+    color: white;
+    border: 0px solid white;
+    margin-top: 40px;
+    align-items: center;
+}
+
+section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+ 
+section h1{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+} 
+
+section p{
+    font-size: 22px;
+}
+
+section button{
+    max-width: 30%;
+    border-radius: 5px !important;
+    background-color: rgb(5, 5, 104) !important; 
+}
+section button:hover{
+    background-color: rgba(240, 248, 255, 0)!important;
+    color: rgb(5,5,104)!important;
+}
+
+#about .col{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+}
+#about img{
+    border-radius: 20px;
+}
+#jobs{
+    height: 1000px;
+    background-color: rgb(1, 1, 87);
+}
+
+#jobs .container .card{
+    border: 1px solid white;
+    background-color: rgb(1,1,87);
+    color: white;
+    height: 150px;
+    width: 550px;
+}
+#jobs .container .card img{
+    height: 110px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.btn-apply button{
+    background-color: rgb(49, 49, 205)!important;  
+    padding: 3px 10px !important;  
+    font-size: medium !important;
+    margin-left: 20px !important;
+    border: 0px !important;
+}
+.btn-apply button:hover{
+    color: white !important;
+    border: 1px solid rgb(49,49,205)!important;
+}
+
+#jobs .card-text{
+    font-size: 15px;
+}
+
+#jobs .container .row .col{
+    width: 50%;
+    display: inline-block;
+}
+.check{
+    width: 25%;
+    margin: auto;
+    margin-top: 30px;
+}
+#job .row{
+    border: 1px solid wheat !important;
+}
+#jobs h2{
+    color: white;
+    margin-top: 20px !important;
+    font-weight: bold;
+}
+#jobs h3{
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 50px;
+}
+
+.btn-view .btn{
+    background-color: red !important;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+}
+.btn-view .btn:hover{
+    background-color: rgba(0, 0, 255, 0) !important;
+    color: red !important;
+}
+#loocking h2{
+    font-weight: bold;
+}
+#loocking .LOF{
+    padding: 20px 50px;
+}
+#loocking .card-body{
+    background-color: rgb(5, 5, 110);
+    color: white;
+    height: 300px;
+}
+#loocking .card-text{
+    font-size: 18px;
+}
+#loocking .card{
+border-radius: 20px;
+margin-right: 20px;
+}
+.btn-look .btn{
+    background-color: red !important;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.btn-look .btn:hover{
+    background-color: rgba(0, 0, 255, 0) !important;
+    color: red !important;
+}
+
+#footer{
+    padding: 0;
+    margin: 0px;
+}
+#footer .row{
+    padding-top: 5em;
+    color: white;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+#footer ul li a{
+    color: white ;
+    text-decoration: none;  
+}
+#footer ul li{
+    list-style-type: square;  
+    font-size: 16px;
+    font-weight: 400;
+}
+#footer h5{
+    margin-left: 20px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+#footer p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0px 0px 16px;
+    padding-right: 25px;
+}
+#footer .job-box{
+    margin-left: 0px;
+    margin-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+#icon-box a{
+    color: rgb(15, 6, 83);
+    margin: 0px;
+    font-size: 15px;
+   
+}
+#icon-box .col-3{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+.btn-subscribe .btn{
+    background-color: red !important;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.btn-subscribe .btn:hover{
+    background-color: rgba(0, 0, 255, 0) !important;
+    color: red !important;
+}
+.last-box{
+    border-top: 1px solid white;
+    color: white;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
